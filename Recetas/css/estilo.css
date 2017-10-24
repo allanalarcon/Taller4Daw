@@ -1,0 +1,85 @@
+#titulo-sitio {
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: 3px 3px 3px  #bc8609; 
+}
+
+body {
+	background-image: url('../img/fondoindex.png');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	margin: 0% 10% 0%;
+	background-attachment: fixed;
+	background-color: transparent;
+}
+
+
+div.receta, div.receta ~ div {
+	display: inline-block;
+	background-image: url('../img/fondoreceta.jpeg');
+	background-repeat: no-repeat;
+	background-size: 240px 250px;
+	border-radius: 2em;
+	height: 250px;
+	width: 235px;
+	margin:10px;
+	padding: 5px;
+}
+
+div.receta h3 {
+	padding-bottom: 60px;
+}
+
+div.receta a {
+	font-variant: small-caps;
+	padding-bottom: 60px;
+	text-decoration: underline;
+	color: #db990a;
+}
+
+div.receta a:hover {
+	color: #edc163;
+	text-decoration: none;
+}
+
+div.receta a:visited {
+	color: #7c652e;
+}
+
+div.informacion p#categoria {
+	color: #d69f2a;
+}
+
+div.informacion p#descripcion {
+	padding-top: 2px;
+}
+
+div.receta:hover, div.receta ~ div:hover{
+	opacity: 0.7;
+}
+
+div.recetadetalle {
+	display: inline-flex;
+	border-bottom: 1pt dotted #e0d2b1;
+	margin: 5px;
+}
+
+div.detalle p {
+	padding: 5px;
+}
+
+span#imgcomida img {
+	width: 200px;
+	height: 220px;
+	padding: 5px;
+}
+
+iframe {
+	height: 100px;
+	width: 100%;
+}
+
+section.resumen {
+	border-bottom: 3px solid #000000;
+}
