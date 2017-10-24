@@ -1,0 +1,65 @@
+* {
+	font-family: 'Verdana';
+}
+
+h1 {
+	font-family: 'Anton';
+	color: #414239;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Lobster';
+	color: #9e0947;
+	font-size: 2.5em;
+	margin: 8px;
+}
+
+h3 {
+	color: #ce105c;
+	font-size: 1em;
+}
+
+section.bloque {
+	border: 1px dotted #d7d8cb;
+	margin: 5px;
+}
+
+div.pelicula{
+	display: inline-flex;
+	padding: 5px;
+}
+
+div.sinopsis p {
+	text-align: justify;
+}
+
+li[famoso='principal']{
+	font-weight: bold;
+}
+
+li[famoso='secundario']{
+	font-style: italic;
+}
+
+span#imgmovie img{
+	width: 150px;
+	height: 200px;
+}
+
+span#imgmovie img:hover {
+	opacity: 0.8;
+}
+
+ul {
+	list-style-image: url('http://web-toolkit.global.sky.com/2.2.13-rc-v1/_site/static/font-svgs/carousel-play.svg');
+}
+
+iframe {
+	height: 200px;
+	width: 300px;
+}
+
+div.reparto {
+	width: 700px;
+}
