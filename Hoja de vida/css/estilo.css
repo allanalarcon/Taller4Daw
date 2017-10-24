@@ -50,6 +50,7 @@ div.habilidad {
 	margin-right: 5px;
 	border-radius: 2em;
 	background-color: lightgrey;
+	box-shadow: 5px 5px 5px #777777;
 }
 
 div.circulo {
